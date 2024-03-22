@@ -16,6 +16,7 @@ public static class UseEndPointsExtensions
             {
                 var ep = ActivatorUtilities.CreateInstance(app.Services, type);
                 (ep as IEndPoint)!.MapEndPoints(app);
+        
             }
         }
         return app;

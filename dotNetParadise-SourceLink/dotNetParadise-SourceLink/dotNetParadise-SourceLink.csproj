@@ -15,5 +15,12 @@
 
 		<!-- Optional: Embed source files that are not tracked by the source control manager in the PDB -->
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<!--<RepositoryType>git</RepositoryType>
+
+		<RepositoryUrl>https://github.com/Dong-Ruipeng/dotNetParadise-SourceLink</RepositoryUrl>-->
+		<Version>1.0.1</Version>
+		<!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>-->
 	</PropertyGroup>
 </Project>
